@@ -1,0 +1,30 @@
+{
+  "name": "test_d",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "watch": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service build --mode development --watch"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "http-proxy-middleware": "^2.0.6",
+    "jquery": "^3.6.0",
+    "startbootstrap-sb-admin-2": "^3.3.7",
+    "vue": "^2.6.11",
+    "vue-input-tag": "^2.0.7",
+    "vue2-dropzone": "^3.6.0",
+    "webpack-dev-middleware": "^6.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "sass": "^1.32.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-source-dir": "^0.1.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
